@@ -7,7 +7,6 @@ import java.io.IOException;
 import org.apache.http.client.ClientProtocolException;
 import org.testng.annotations.Test;
 
-import com.rob.profilePojo.entry.ProfileResponse;
 
 /**
  * Unit test for simple App.
