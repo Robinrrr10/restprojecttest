@@ -21,6 +21,7 @@ public class AppTest
 		long profileId = 12345;
 		App app = new App();
 		ProfileResponse profileResponse = app.getprofile(profileId);
+		System.out.println("ProfileResponse"+profileResponse);
 		assertEquals(profileResponse.getStatus().getStatusCode(), 10001, "Failed with status code is not matching statusMessage:"+profileResponse.getStatus().getStatusMessage());
 		assertEquals(profileResponse.getStatus().getStatusMessage(), "Profile received successfully", "Status message Failed");;
 		System.out.println("Test case 1 completed");
