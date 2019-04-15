@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10472" started-at="2019-04-15T17:08:29Z" finished-at="2019-04-15T17:08:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10472" started-at="2019-04-15T17:08:29Z" finished-at="2019-04-15T17:08:39Z">
+      <class name="com.rob.myrestprojecttest.AppTest">
+        <test-method status="PASS" signature="testProfile()[pri:0, instance:com.rob.myrestprojecttest.AppTest@675d3402]" name="testProfile" duration-ms="10404" started-at="2019-04-15T17:08:29Z" finished-at="2019-04-15T17:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfile -->
+      </class> <!-- com.rob.myrestprojecttest.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
