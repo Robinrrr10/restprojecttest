@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12248" started-at="2019-04-15T18:03:44Z" finished-at="2019-04-15T18:03:56Z">
+  <suite name="Default suite" duration-ms="11897" started-at="2019-04-15T18:31:00Z" finished-at="2019-04-15T18:31:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12248" started-at="2019-04-15T18:03:44Z" finished-at="2019-04-15T18:03:56Z">
+    <test name="Default test" duration-ms="11897" started-at="2019-04-15T18:31:00Z" finished-at="2019-04-15T18:31:12Z">
       <class name="com.rob.myrestprojecttest.AppTest">
-        <test-method status="PASS" signature="testProfile()[pri:0, instance:com.rob.myrestprojecttest.AppTest@5419f379]" name="testProfile" duration-ms="12144" started-at="2019-04-15T18:03:44Z" finished-at="2019-04-15T18:03:56Z">
+        <test-method status="PASS" signature="testProfileWithInvalid()[pri:0, instance:com.rob.myrestprojecttest.AppTest@675d3402]" name="testProfileWithInvalid" duration-ms="11809" started-at="2019-04-15T18:31:00Z" description="Test profile with invalid" finished-at="2019-04-15T18:31:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testProfile -->
+        </test-method> <!-- testProfileWithInvalid -->
       </class> <!-- com.rob.myrestprojecttest.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
