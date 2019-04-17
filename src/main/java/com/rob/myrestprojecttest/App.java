@@ -13,7 +13,7 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rob.profilePojo.entry.ProfileResponse;
+import com.github.robinrrr10.profilePojo.entry.ProfileResponse;
 
 /**
  * Hello world!
