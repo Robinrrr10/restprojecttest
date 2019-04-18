@@ -43,9 +43,9 @@
     <scope>test</scope>
 </dependency>
 	   <dependency>
-	 	<groupId>com.github.robinrrr10</groupId>
-		<artifactId>profilePojo</artifactId>
-		<version>0.0.8-SNAPSHOT</version>
+		 	<groupId>com.github.robinrrr10</groupId>
+			<artifactId>profilePojo</artifactId>
+			<version>0.0.7</version>
 	  </dependency> 
   </dependencies>
 </project>
