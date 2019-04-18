@@ -45,7 +45,7 @@
 	   <dependency>
 		 	<groupId>com.github.robinrrr10</groupId>
 			<artifactId>profilePojo</artifactId>
-			<version>0.0.7</version>
+			<version>0.0.10</version>
 	  </dependency> 
   </dependencies>
 </project>
