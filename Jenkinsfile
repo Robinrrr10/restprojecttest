@@ -18,8 +18,18 @@ pipeline {
 			}
 			stage('Four') {
 				steps {
-					echo 'Completed'
+					echo 'this fourth one'
 				}
+			}
+			stage('Five') {
+				when {
+					not {
+					branch "master"
+					 }
+					}
+					steps {
+						echo "This is five"
+					}
 			}
 		}
 }
