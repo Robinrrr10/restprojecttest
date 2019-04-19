@@ -13,7 +13,12 @@ pipeline {
 			}
 			stage('Three') {
 				steps {
-					echo 'Three stage. Ending'
+					sh 'mvn clean test'
+				}
+			}
+			stage('Four') {
+				steps {
+					echo 'Completed'
 				}
 			}
 		}
