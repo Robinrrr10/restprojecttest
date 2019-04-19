@@ -25,11 +25,25 @@ pipeline {
 				when {
 					not {
 					branch "master"
-					 }
+					 	}
 					}
 					steps {
 						echo "This is five"
 					}
+			}
+			stage('Six') {
+				parallel {
+					stage('Six one') {
+						steps {
+							echo 'parallel one'
+						}
+					}
+					stage('Six two') {
+						steps {
+							echo 'parallel two'
+						}
+					}
+				}
 			}
 		}
 }
