@@ -21,10 +21,10 @@ import com.github.robinrrr10.profilePojo.entry.ProfileResponse;
  */
 public class App {
 	
-	public ProfileResponse getprofile(long profileId) throws ClientProtocolException, IOException {
+	public ProfileResponse getprofile(long profileId, String env) throws ClientProtocolException, IOException {
 		System.out.println("Hello World!");
 		HttpClient client = HttpClients.createDefault();
-		HttpGet postRequest = new HttpGet("http://localhost:8080/myrestproject/v1/profile/"+profileId);
+		HttpGet postRequest = new HttpGet("http://"+env+":8080/myrestproject/v1/profile/"+profileId);
 		HttpResponse response = client.execute(postRequest);
 		System.out.println("status code is" + response.getStatusLine().getStatusCode());
 		HttpEntity entity = response.getEntity();

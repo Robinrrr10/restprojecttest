@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10950" started-at="2019-04-15T18:45:12Z" finished-at="2019-04-15T18:45:23Z">
+  <suite name="Default suite" duration-ms="6553" started-at="2019-04-19T05:18:57Z" finished-at="2019-04-19T05:19:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10950" started-at="2019-04-15T18:45:12Z" finished-at="2019-04-15T18:45:23Z">
+    <test name="Default test" duration-ms="6553" started-at="2019-04-19T05:18:57Z" finished-at="2019-04-19T05:19:04Z">
       <class name="com.rob.myrestprojecttest.AppTest">
-        <test-method status="PASS" signature="testProfileWithInvalid()[pri:0, instance:com.rob.myrestprojecttest.AppTest@2a5ca609]" name="testProfileWithInvalid" duration-ms="10800" started-at="2019-04-15T18:45:12Z" description="Test profile with invalid" finished-at="2019-04-15T18:45:23Z">
+        <test-method status="PASS" signature="setupEnvironment()[pri:0, instance:com.rob.myrestprojecttest.AppTest@29ee9faa]" name="setupEnvironment" is-config="true" duration-ms="23" started-at="2019-04-19T05:18:57Z" finished-at="2019-04-19T05:18:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testProfileWithInvalid -->
-        <test-method status="PASS" signature="testSuccessfullProfile()[pri:0, instance:com.rob.myrestprojecttest.AppTest@2a5ca609]" name="testSuccessfullProfile" duration-ms="70" started-at="2019-04-15T18:45:23Z" description="Test profile successfull" finished-at="2019-04-15T18:45:23Z">
+        </test-method> <!-- setupEnvironment -->
+        <test-method status="PASS" signature="testSuccessfullProfile()[pri:0, instance:com.rob.myrestprojecttest.AppTest@29ee9faa]" name="testSuccessfullProfile" duration-ms="6492" started-at="2019-04-19T05:18:57Z" description="Test profile successfull" finished-at="2019-04-19T05:19:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfullProfile -->
       </class> <!-- com.rob.myrestprojecttest.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
